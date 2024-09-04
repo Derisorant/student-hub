@@ -1,0 +1,284 @@
+@import url("https://cinnab0nbak3ry.github.io/AppleFontsCSS/Apple-fonts.css");
+
+:root {
+--gradient-radial: radial-gradient(#2d00f7ff, #6a00f4ff, #8900f2ff, #a100f2ff, #b100e8ff, #bc00ddff, #d100d1ff, #db00b6ff, #e500a4ff, #f20089ff);
+}
+
+body {
+  background-color: rgb(9, 7, 28) !important;
+  background-image: url("https://i.imgur.com/GFnFn97.png") !important;
+  background-size: 150%;
+  background-repeat: auto;
+  background-position: right;
+  font-family: "SF Pro Display";
+}
+
+.navbar {
+background: rgba(4, 0, 34, 0) !important;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+}
+
+.react-grid-item {
+  border-radius: 10px;
+  backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0) !important;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+li.slide > span.title {
+  visibility: visible;
+  display: flex;
+  font-family: "SF Pro Display";
+  font-weight: 500;
+  position: relative !important;
+  left: unset !important;
+  top: unset !important;
+  text-align: center !important;
+  height: 100% !important;
+  text-shadow: none !important;
+  padding: 5px;
+  opacity: 0.3;
+}
+
+li.slide > span.title:before {
+  position: absolute !important;
+  visibility: visible;
+  content: "No data";
+  font-family: "SF Pro Display";
+  font-size: 2em !important;
+  font-weight: 400;
+  text-shadow: none;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+li.slide .selected .previous > div {
+  display: none !important;
+}
+
+.fb-page > span > iframe {
+  visibility: hidden !important;
+}
+
+div.fb-page > span:before {
+position: absolute !important;
+  visibility: visible;
+  content: "No data";
+  font-family: "SF Pro Display";
+  font-size: 2em !important;
+  font-weight: 400;
+  text-shadow: none;
+  left: 50%;
+  top: 50%;
+  color: white;
+  opacity: 0.3;
+  transform: translate(-50%, -50%);
+}
+
+.banner-tile {
+  display: none;
+}
+
+img[width^="64"] {
+  filter: brightness(0) invert(1);
+}
+
+.user-image {
+  background-image: url("https://i.pinimg.com/564x/06/dc/e4/06dce4f408a990dbae020eb3211b6a14.jpg") !important;
+}
+
+.control-dots, .carousel-status {
+  visibility: hidden;
+}
+
+.modal-content {
+    background: rgba(4, 0, 34, 0.5) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFF;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+}
+
+.modal-body {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+@media (min-width: 992px) {
+    .modal-lg, .modal-xl {
+        max-width: 75%;
+    }
+}
+
+.rbc-agenda-view table.rbc-agenda-table .rbc-agenda-time-cell {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: lowercase;
+    border-left: 1px solid #ddd;
+}
+
+.close:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.rbc-calendar {
+  height: 100% !important;
+  min-height: 500px;
+}
+
+.rbc-agenda-view {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    overflow: visible !important;
+}
+
+.clearfix.mt-2 {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    transform: translate(1em, -30%);
+}
+
+.print-cont .print-link:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.print-cont .print-link {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+    color: black;
+    padding: 12px 6px;
+    transition: background-color .2s ease;
+    margin-bottom: 12px;
+}
+
+.tile-icon {
+  color: #FFF !important;
+}
+
+.bar {
+  border-radius: 10px;
+  background-color: rgba(17, 25, 40, 0) !important;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.percent {
+  background-color: rgba(242, 0, 137, 0.5) !important;
+}
+
+.link-box {
+    border-radius: 5px;
+    background: #f5f5fa;
+    box-sizing: border-box;
+    color: #2a1f62;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: .2s;
+    user-select: none;
+    word-break: normal;
+    word-spacing: normal;
+    z-index: 0 !important;
+}
+
+.link-box:before {
+      content: ' ';
+    background: var(--gradient-radial);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1 !important;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 5px;
+}
+
+.link-box:hover:before {
+  opacity: 1;
+}
+
+.link-box:after {
+    z-index: -1;
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    background: #f5f5fa;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+.link-cont > .col-lg-3 > a >:first-child >:last-child {
+    display: none !important;
+}
+
+.link-box .title {
+    font-size: large !important;
+}
+
+.link-box .desc {
+    font-size: small !important;
+}
+
+.button-38:hover {
+  background-color: rgb(249,250,251);
+}
+
+.btn-secondary.focus, .btn-secondary:focus, .btn-secondary:hover {
+  outline: 2px solid transparent !important;
+  outline-offset: 2px !important;
+  background-color: rgb(249,250,251) !important;
+  color: #111827 !important;
+}
+
+.btn-secondary.focus, .btn-secondary:focus {
+  box-shadow: none !important;
+}
